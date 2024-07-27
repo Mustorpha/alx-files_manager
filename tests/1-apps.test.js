@@ -8,7 +8,7 @@ import dbClient from '../utils/db';
 use(chaiHttp);
 should();
 
-// General APP Endpoints ==============================================
+// General APP Endpoints =======================
 
 describe('testing App Status Endpoints', () => {
   describe('gET /status', () => {
